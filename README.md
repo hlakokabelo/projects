@@ -1,8 +1,8 @@
-# Kabelo Hlako — Portfolio
+# Kabelo Hlako — projects
 
-Personal portfolio website built with React, TypeScript, Tailwind CSS, and Vite.
+Most of the projects I built
 
-[Live site](https://kabelodev.vercel.app)
+[Live site](https://kabeloproj.vercel.app)
 
 ## Stack
 
@@ -16,3 +16,4 @@ Personal portfolio website built with React, TypeScript, Tailwind CSS, and Vite.
 ```bash
 npm install
 npm run dev
+```
