@@ -36,10 +36,6 @@ export default function ProjectCard({ project }: Props) {
         </div>
       </div>
 
-      <p className="text-sm text-slate-400 leading-relaxed mb-5 grow">
-        {project.description}
-      </p>
-
       <div className="flex flex-wrap gap-2">
         {project.stack.map((tech) => (
           <span key={tech} className="tag">

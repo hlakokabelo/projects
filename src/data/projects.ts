@@ -1,7 +1,6 @@
 export type Project = {
   name: string;
   tagline: string;
-  description: string;
   stack: string[];
   source: string;
   live?: string;
@@ -12,8 +11,6 @@ export const projects: Project[] = [
   {
     name: "Chatterra",
     tagline: "Reddit-like social platform",
-    description:
-      "A full-stack community platform with Google, GitHub, and email authentication. Supports posts, communities, threaded comments, voting, search, user profiles, and image uploads. Built on Supabase with Row Level Security and database functions to enforce access rules and application logic.",
     stack: [
       "React",
       "TypeScript",
@@ -29,8 +26,6 @@ export const projects: Project[] = [
   {
     name: "Photos Clone API",
     tagline: "Java Spring Boot REST API",
-    description:
-      "A REST API for uploading, searching, downloading, and deleting photos, built with Java 21 and Spring Boot 4. Implements JWT authentication with Spring Security and BCrypt password hashing, persists data with Spring Data JDBC on Neon PostgreSQL, and is containerised with Docker. Includes GitHub Actions for Gradle builds and Swagger UI documentation.",
     stack: [
       "Java 21",
       "Spring Boot 4",
@@ -48,8 +43,6 @@ export const projects: Project[] = [
   {
     name: "Trimzo",
     tagline: "Full-stack URL shortener",
-    description:
-      "A full-stack URL shortener with JWT authentication and protected API endpoints. Users can create and manage shortened links through the web interface, while the REST API returns structured JSON responses. MongoDB data is modelled and queried with Mongoose.",
     stack: [
       "React",
       "TypeScript",
@@ -66,8 +59,6 @@ export const projects: Project[] = [
   {
     name: "Movie List API",
     tagline: "RESTful API for movie data",
-    description:
-      "A RESTful API for managing movie data with authentication, validation, search, and filtering. Built with Node.js and Express using Prisma for data modelling and PostgreSQL for persistent storage, with structured JSON responses and a clean project architecture.",
     stack: ["Node.js", "Express", "PostgreSQL", "Prisma", "REST API"],
     source: "https://github.com/hlakokabelo/movie-list-api",
     live: "https://movie-list-api-z4dh.onrender.com/api",
@@ -76,8 +67,6 @@ export const projects: Project[] = [
   {
     name: "JobScout",
     tagline: "Job search utility",
-    description:
-      "A React and TypeScript application that generates targeted job-search URLs across major South African employment platforms. Handles input parsing, deduplication, URL encoding, platform-specific queries, and persistent search settings stored in the browser.",
     stack: ["React", "TypeScript", "Vite", "Tailwind CSS"],
     source: "https://github.com/hlakokabelo/JobScout",
     live: "https://jobscout-za.vercel.app",
@@ -86,8 +75,6 @@ export const projects: Project[] = [
   {
     name: "Vitest Practice",
     tagline: "Component testing playground",
-    description:
-      "A small React project built to practise component testing with Vitest and React Testing Library. Covers role-based queries, user-event interactions, async fetch mocking, and edge-case handling across a set of intentionally simple components.",
     stack: [
       "React",
       "Vite",
@@ -103,8 +90,6 @@ export const projects: Project[] = [
   {
     name: "SYNAT Tutors",
     tagline: "Academic group project",
-    description:
-      "A cross-platform mobile and web application built as a university group project. Contributed features for accessing courses, assignments, and academic content, and collaborated with the team to deliver a functional learning platform.",
     stack: ["Cross-platform mobile/web"],
     source: "https://github.com/hlakokabelo",
     featured: true,
@@ -112,8 +97,6 @@ export const projects: Project[] = [
   {
     name: "Utility hub",
     tagline: "utility hub",
-    description:
-      "Utility Hub is a collection of simple, practical tools. The project is designed as a central place for calculators and converters, with each tool available through its own route.",
     stack: ["React", "Vite", "TypeScript", "Vitest"],
     source: "https://github.com/hlakokabelo/Utility-hub",
     featured: true,
@@ -122,8 +105,6 @@ export const projects: Project[] = [
   {
     name: "File Explorer",
     tagline: "View files",
-    description:
-      "A simple React file explorer that lets users browse through folders, and source files directly from the browser.",
     stack: ["React", "Vite", "TypeScript", "Zustand"],
     source: "https://github.com/hlakokabelo/File-Explorer",
     featured: true,
@@ -133,7 +114,6 @@ export const projects: Project[] = [
   {
     name: "Chat App",
     tagline: "",
-    description: "lite messaging app",
     stack: [
       "bcryptjs",
       "cloudinary",
