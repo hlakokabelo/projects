@@ -23,6 +23,7 @@ export const projects: Project[] = [
     live: "https://chatterra.vercel.app",
     featured: true,
   },
+
   {
     name: "Photos Clone API",
     tagline: "Java Spring Boot REST API",
@@ -126,5 +127,13 @@ export const projects: Project[] = [
     source: "https://github.com/hlakokabelo/chat-app",
     featured: true,
     //live: "https://vitest-practice-two.vercel.app",
+  },
+  {
+    name: "ExploringTechs",
+    tagline: "Browser playground for exploring libraries.",
+    stack: ["React", "TypeScript", "tesseract.js", "Zustand", "scribe.js-ocr"],
+    source: "https://github.com/hlakokabelo/ExploringTechs",
+    live: "https://ExploringTechs.vercel.app",
+    featured: true,
   },
 ];
