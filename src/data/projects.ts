@@ -136,4 +136,18 @@ export const projects: Project[] = [
     live: "https://ExploringTechs.vercel.app",
     featured: true,
   },
+  {
+    name: "Multiple-choice",
+    tagline: "Multiple-choice study app with instant feedback and question sets",
+    stack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand",
+      "Vite"
+    ],
+    source: "https://github.com/hlakokabelo/Multiple-choice",
+    live: "https://multiple-choice-nu.vercel.app/",
+    featured: true,
+}
 ];
